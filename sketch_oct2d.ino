@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>    // Para criar o JSON de forma segura
 
 // =========== Configurações de Wi-Fi =============
-const char* ssid = "Sergio";      // Coloque o nome da sua rede Wi-Fi
-const char* password = "ST250412"; // Coloque a senha da sua rede Wi-Fi
+const char* ssid = "[Nome da Rede WI-Fi]";      // Coloque o nome da sua rede Wi-Fi
+const char* password = "[Senha do seu Wi-fi]"; // Coloque a senha da sua rede Wi-Fi
 
 // =========== Configurações do MQTT =============
 const char* mqtt_server = "broker.hivemq.com"; // Broker MQTT público e gratuito
